@@ -116,4 +116,4 @@ Documento de alcance inicial: Alcance_Proyecto.pdf
 Nicolás Gómez
 Data Analyst Jr. | Enfocado en proyectos de Business Intelligence y migración digital.
 
-📌 Conéctate conmigo en LinkedIn
+📌 Conéctate conmigo en [LinkedIn] (https://www.linkedin.com/in/nicolas-gomez-remote/)
