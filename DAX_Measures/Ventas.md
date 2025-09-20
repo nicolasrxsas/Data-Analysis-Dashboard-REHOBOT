@@ -1,6 +1,6 @@
 # 📊 Medidas DAX - Proyecto de Ventas
 
-Este documento recopila las medidas DAX utilizadas en el desarrollo del dashboard de análisis de ventas.  
+Este documento recopila las medidas DAX **más reelevantes** utilizadas en el desarrollo del dashboard de análisis de ventas.  
 Cada medida incluye su definición, el uso dentro del reporte y el insight que aporta.
 
 ---
