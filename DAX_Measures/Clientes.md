@@ -33,4 +33,7 @@ RETURN
 
 * **Uso**: KPI principal en la primera página del dashboard.
 * **Insight**: Evalúa el desempeño general de las ventas en un período específico.
+```
+* **Uso**: KPI principal en la primera página del dashboard.
+* **Insight**: Evalúa el desempeño general de las ventas en un período específico.
 
