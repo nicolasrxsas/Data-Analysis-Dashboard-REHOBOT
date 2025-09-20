@@ -15,8 +15,7 @@ VAR MaxCiudad =
 RETURN 
     MAXX ( MaxCiudad, Ventas_Diarias[Ciudad] )
 
----
-
+```
 Este documento recopila las medidas DAX utilizadas en el desarrollo del dashboard de análisis de ventas.  
 Cada medida incluye su definición, el uso dentro del reporte y el insight que aporta.
 
