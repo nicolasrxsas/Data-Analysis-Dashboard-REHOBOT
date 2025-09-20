@@ -105,7 +105,7 @@ Portafolio profesional para demostrar habilidades en análisis de datos, modelad
 Explora las medidas DAX en la carpeta DAX_Measures/
 .
 
-Revisa las visualizaciones en images/
+Revisa las visualizaciones en Capturas/
 .
 
 Documento de alcance inicial: Alcance_Proyecto.pdf
