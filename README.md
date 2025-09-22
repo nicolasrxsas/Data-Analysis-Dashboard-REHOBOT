@@ -3,8 +3,6 @@
 **Un proyecto de análisis de datos para optimizar las ventas digitales y la gestión de clientes en Distribuciones Rehobot.**
 * *Empresa: Distribuciones Rehobot*
 
-* *Autor: Nicolás Gómez*
-
 * *Herramienta: Power BI*
 
 * *Fecha: Septiembre 2025*
@@ -95,6 +93,14 @@ Este dashboard no solo cumple los objetivos iniciales, sino que también genera 
 ## 🔗 Cómo Navegar el Proyecto
 
 * Explora las medidas DAX detalladas en la carpeta **`DAX_Measures/`**.
-* Revisa las capturas de pantalla de las visualizaciones en la carpeta **`images/`**.
-*Consulta el documento Excel utilizado para recopilar los datos **`images/`**.
+* Revisa las capturas de pantalla de las visualizaciones en la carpeta **`Capturas/`**.
+*Consulta el documento Excel utilizado para recopilar los datos **`PROYECTO 1`**.
+* Analiza el Dashboard creado con el archivo **`Dashboard REHOBOT.pbix`*
 * Consulta el documento de alcance inicial del proyecto en **`Alcance_Proyecto.pdf`**.
+---
+👨‍💻 Autor
+
+Nicolás Gómez
+Data Analyst Jr. | Enfocado en proyectos de Business Intelligence y migración digital.
+
+📌 Conéctate conmigo en [LinkedIn](https://www.linkedin.com/in/nicolas-gomez-remote/)
