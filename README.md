@@ -8,7 +8,7 @@
 * *Herramienta: Power BI*
 
 * *Fecha: Septiembre 2025*
-![Portada del Dashboard](images/dashboard_portada.png)
+![Portada del Dashboard](Capturas/Kpi´s_globales.png)
 
 ---
 
