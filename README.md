@@ -1,119 +1,100 @@
-.
+# 📊 Dashboard de Análisis de Ventas
 
-📊 Dashboard de Análisis de Ventas
+**Un proyecto de análisis de datos para optimizar las ventas digitales y la gestión de clientes en Distribuciones Rehobot.**
+* *Empresa: Distribuciones Rehobot*
 
-Empresa: Distribuciones Rehobot
-Autor: Nicolás Gómez
-Herramienta: Power BI
-Fecha: Septiembre 2025
+* *Autor: Nicolás Gómez*
 
-🔎 Contexto
+* *Herramienta: Power BI*
 
-La empresa Distribuciones Rehobot se encuentra en un proceso de transformación digital, migrando sus ventas del modelo presencial hacia el canal online con el objetivo de:
+* *Fecha: Septiembre 2025*
+![Portada del Dashboard](images/dashboard_portada.png)
 
-Alcanzar un 80% de ventas digitales y un 20% presenciales.
+---
 
-Reducir costos operativos.
+## 🚀 Contexto del Proyecto
 
-Mejorar la gestión de cartera vencida.
+La empresa **Distribuciones Rehobot** está en un proceso de **transformación digital**, migrando su modelo de ventas de lo presencial a lo online. El objetivo principal es alcanzar un 80% de ventas digitales para:
 
-Optimizar la atención a los clientes más valiosos.
+* **Reducir costos operativos.**
+* **Mejorar la gestión de la cartera vencida.**
+* **Optimizar la atención a los clientes más valiosos.**
 
-Los datos utilizados provienen de registros reales en Excel (ventas, clientes y productos) recolectados desde junio de 2025.
+Los datos utilizados para este análisis son registros reales de ventas, clientes y productos, recolectados en formato Excel desde junio de 2025.
 
-🎯 Objetivo del Proyecto
+---
 
-Construir un dashboard interactivo en Power BI que permita a la empresa:
+## 🎯 Objetivo del Dashboard
 
-Monitorear la evolución de las ventas y la cartera.
+El propósito de este proyecto fue crear un **dashboard interactivo en Power BI** que sirviera como una herramienta clave para la toma de decisiones, permitiendo a la empresa:
 
-Identificar productos de alta/baja rotación.
+* Monitorear la evolución de las ventas y la cartera de clientes.
+* Identificar productos de alta y baja rotación.
+* Detectar clientes estratégicos y de riesgo.
+* Evaluar la eficiencia de los métodos de pago.
 
-Detectar clientes estratégicos y de riesgo.
+---
 
-Evaluar la eficiencia de los métodos de pago.
+## ❓ Preguntas de Negocio Respondidas
 
-❓ Preguntas de Negocio Respondidas
+Este dashboard responde a preguntas cruciales para la operación del negocio:
 
-¿Cuál es la evolución de las ventas y cartera desde junio hasta la fecha?
+* ¿Cuál es la evolución de las **ventas** y la **cartera** desde junio hasta la fecha?
+* ¿Qué **productos** son los más vendidos y cuáles tienen baja rotación?
+* ¿Qué **clientes** representan la mayor proporción de ingresos y deudas?
+* ¿Cómo se comportan los **métodos de pago** (contado vs. crédito) a lo largo del tiempo?
 
-¿Qué productos son los más vendidos y cuáles tienen baja rotación?
+---
 
-¿Qué clientes representan la mayor proporción de ingresos y deudas?
+## 🛠️ Herramientas Utilizadas
 
-¿Cómo se comportan los métodos de pago (contado vs crédito) a lo largo del tiempo?
+* **Power BI:** Para la visualización, modelado de datos y creación del dashboard.
+* **Excel:** La fuente de datos original (ventas diarias, clientes, productos, cartera).
+* **DAX:** Utilizado para la creación de medidas y KPIs personalizados que impulsan las visualizaciones.
+* **GitHub:** Empleado para la documentación técnica y como portafolio del proyecto.
 
-🛠️ Herramientas Utilizadas
+---
 
-Power BI → Visualización y modelado.
+## 📈 Visualizaciones Clave
 
-Excel → Fuente de datos (ventas diarias, clientes, productos, cartera).
+El dashboard incluye las siguientes visualizaciones estratégicas para una vista integral del negocio:
 
-DAX → Creación de medidas y KPIs personalizados.
+* **Ventas Totales y Evolución Temporal:** Gráficos de tendencias semanales y mensuales.
+* **Top Productos y Rotación:** Clasificación de productos por volumen de ventas y rentabilidad.
+* **Clientes Estratégicos y Cartera:** Segmentación de clientes cumplidos versus clientes con cartera vencida.
+* **Métodos de Pago:** Comparación del rendimiento de ventas a contado vs. a crédito.
+* **Ventas y Cartera por Zona:** Mapas o gráficos para obtener insights regionales.
 
-GitHub → Documentación técnica y portafolio.
+---
 
-📈 Resultados y Visualizaciones Clave
+## 📂 Estructura del Repositorio
 
-Ventas Totales y Evolución Temporal → Tendencias semanales/mensuales.
+---
 
-Top Productos y Rotación → Clasificación por volumen y rentabilidad.
+## 🧮 Medidas DAX Principales
 
-Clientes Estratégicos y Cartera → Identificación de clientes cumplidos vs vencidos.
+Algunas de las medidas clave creadas en DAX para este proyecto (puedes encontrar más detalles en la carpeta `DAX_Measures`):
 
-Métodos de Pago → Comparación contado vs crédito.
+* `Ventas Totales = SUM(Ventas_Diarias[Precio_Venta])`
+* `Ticket Promedio = DIVIDE([Ventas Totales], [Cantidad de Ventas])`
+* `Clientes Únicos = DISTINCTCOUNT(Clientes[ID_Cliente])`
 
-Ventas y Cartera por Zona → Insights regionales.
+---
 
-📌 Ejemplo de visual:
+## 🚀 Impacto del Proyecto
 
+Este dashboard no solo cumple los objetivos iniciales, sino que también genera un impacto significativo al permitir a la empresa:
 
-📂 Estructura del Repositorio
-├── DAX_Measures/
-│   ├── Ventas.md
-│   ├── Clientes.md
-│   ├── Productos.md
-├── images/
-│   ├── dashboard_portada.png
-│   ├── ventas_clientes.png
-│   ├── productos.png
-│   ├── cartera.png
-├── README.md
+* Tomar **decisiones informadas** sobre la gestión de productos y clientes.
+* Obtener un **mejor control** de la transición entre ventas digitales y presenciales.
+* Establecer una **estrategia de cobranza** más clara gracias al análisis de cartera.
+* Demostrar habilidades en **análisis de datos**, **modelado en Power BI** y aplicación de **DAX**.
 
-🧮 Principales Medidas DAX
+---
 
-Ejemplo de algunas medidas clave (más en DAX_Measures/):
+## 🔗 Cómo Navegar el Proyecto
 
-Ventas Totales = SUM(Ventas_Diarias[Precio_Venta])
-
-Ticket Promedio = DIVIDE([Ventas Totales], [Cantidad de Ventas])
-
-Clientes Únicos = DISTINCTCOUNT(Clientes[ID_Cliente])
-
-🚀 Impacto del Proyecto
-
-Decisiones informadas en gestión de productos y clientes.
-
-Mejor control de ventas digitales vs presenciales.
-
-Estrategia de cobranza más clara gracias al análisis de cartera.
-
-Portafolio profesional para demostrar habilidades en análisis de datos, modelado en Power BI y aplicación de DAX.
-
-🔗 Cómo Navegar el Proyecto
-
-Explora las medidas DAX en la carpeta DAX_Measures/
-.
-
-Revisa las visualizaciones en Capturas/
-.
-
-Documento de alcance inicial: Alcance_Proyecto.pdf
-.
-
-👨‍💻 Autor
-
-Nicolás Gómez
-Data Analyst Jr. | Enfocado en proyectos de Business Intelligence y migración digital.
-
-📌 Conéctate conmigo en [LinkedIn] (https://www.linkedin.com/in/nicolas-gomez-remote/)
+* Explora las medidas DAX detalladas en la carpeta **`DAX_Measures/`**.
+* Revisa las capturas de pantalla de las visualizaciones en la carpeta **`images/`**.
+*Consulta el documento Excel utilizado para recopilar los datos **`images/`**.
+* Consulta el documento de alcance inicial del proyecto en **`Alcance_Proyecto.pdf`**.
