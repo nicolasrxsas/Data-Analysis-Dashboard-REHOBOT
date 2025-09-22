@@ -113,6 +113,7 @@ Este dashboard no solo cumple los objetivos iniciales, sino que también genera 
 ## 🔗 Cómo Navegar el Proyecto
 
 * Explora las medidas DAX detalladas en la carpeta **`DAX_Measures/`**.
+* Observa el modelado de datos utilizado en Power BI **`Modelo_de_Datos/`**.
 * Revisa las capturas de pantalla de las visualizaciones en la carpeta **`Capturas/`**.
 *Consulta el documento Excel utilizado para recopilar los datos **`PROYECTO_1.xlsx`**.
 * Analiza el Dashboard creado con el archivo **`Dashboard_REHOBOT.pbix`**.
