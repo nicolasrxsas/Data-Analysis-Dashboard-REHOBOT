@@ -81,6 +81,10 @@ El dashboard incluye las siguientes visualizaciones estratégicas para una vista
   └── README.md
 
 ---
+## 📐 Modelo de Datos
+![Modelo de Datos](assets/model.png)
+
+👉 Ver detalle completo de las relaciones: [Data_Model.md](Data_Model.md)
 
 ## 🧮 Medidas DAX Principales
 
