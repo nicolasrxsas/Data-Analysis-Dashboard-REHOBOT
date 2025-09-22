@@ -94,8 +94,8 @@ Este dashboard no solo cumple los objetivos iniciales, sino que también genera 
 
 * Explora las medidas DAX detalladas en la carpeta **`DAX_Measures/`**.
 * Revisa las capturas de pantalla de las visualizaciones en la carpeta **`Capturas/`**.
-*Consulta el documento Excel utilizado para recopilar los datos **`PROYECTO 1`**.
-* Analiza el Dashboard creado con el archivo **`Dashboard REHOBOT`**.
+*Consulta el documento Excel utilizado para recopilar los datos **`PROYECTO 1.xlsx`**.
+* Analiza el Dashboard creado con el archivo **`Dashboard REHOBOT.pbix`**.
 * Consulta el documento de alcance inicial del proyecto en **`Alcance_Proyecto.pdf`**.
 ---
 👨‍💻 Autor
