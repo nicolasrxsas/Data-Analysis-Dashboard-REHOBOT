@@ -66,6 +66,19 @@ El dashboard incluye las siguientes visualizaciones estratégicas para una vista
 ---
 
 ## 📂 Estructura del Repositorio
+* ``` MARKDOWN
+  ├── Capturas/
+    ├── kpi´s_globales.png
+    ├── clientes y cartera.png
+    ├── productos y proveedores.png
+    └── tendencias en el tiempo.png
+    └──ventas por zona.png
+  DAX_Measures/
+    ├──DAX_Measures.md
+  └── Alcance_Proyecto.pdf
+  └── Dashboard_Rehobot.pbix
+  └── PROYECTO_1.XLXS
+  └── README.md
 
 ---
 
